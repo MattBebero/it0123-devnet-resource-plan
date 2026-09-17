@@ -1,0 +1,39 @@
+{
+  "student_name": "Matt Reuel P. Bebero",
+  "section": "TN31",
+  "ai_tool": "ChatGPT",
+  "entries": [
+    {
+      "use_case_id": "UC1",
+      "selected_resource_type": "always-on-sandbox",
+      "official_evidence_url": "https://developer.cisco.com/docs/sandbox/",
+      "ai_recommendation_summary": "ChatGPT recommended an Always-On Sandbox for immediate shared read-only API exploration.",
+      "verification_status": "verified",
+      "rationale": "The team needs immediate access without provisioning and does not require administrative control, making the shared Always-On Sandbox appropriate."
+    },
+    {
+      "use_case_id": "UC2",
+      "selected_resource_type": "reservation-sandbox",
+      "official_evidence_url": "https://developer.cisco.com/docs/sandbox/",
+      "ai_recommendation_summary": "ChatGPT recommended a Reservation Sandbox for private configuration testing with administrative access.",
+      "verification_status": "verified",
+      "rationale": "The team requires a private environment and administrative access and can accept reservations, VPN connectivity, and additional setup time."
+    },
+    {
+      "use_case_id": "UC3",
+      "selected_resource_type": "learning-lab",
+      "official_evidence_url": "https://developer.cisco.com/learning/",
+      "ai_recommendation_summary": "ChatGPT recommended a Learning Lab because the beginner needs structured step-by-step guidance.",
+      "verification_status": "verified",
+      "rationale": "The immediate requirement is guided learning rather than independent device administration, so structured Learning Lab material is the best match."
+    },
+    {
+      "use_case_id": "UC4",
+      "selected_resource_type": "code-exchange",
+      "official_evidence_url": "https://developer.cisco.com/codeexchange/",
+      "ai_recommendation_summary": "ChatGPT recommended Cisco Code Exchange for finding reusable network automation code examples.",
+      "verification_status": "verified",
+      "rationale": "The developer wants to examine existing Cisco and community repositories before creating a new solution, which matches Cisco Code Exchange."
+    }
+  ]
+}
